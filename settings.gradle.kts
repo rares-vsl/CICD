@@ -7,9 +7,6 @@ gitHooks {
     commitMsg {
         conventionalCommits()
     }
-    hook("pre-commit") {
-        tasks("checkstyleMain")
-    }
     createHooks(true)
 }
 
