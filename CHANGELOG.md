@@ -1,3 +1,10 @@
+## [0.3.0](https://github.com/rares-vsl/CICD/compare/v0.2.0...v0.3.0) (2025-05-31)
+
+### Features
+
+* context msg ([410828a](https://github.com/rares-vsl/CICD/commit/410828a59008cec440bd6460bf0e83ad6d888642))
+* context msg ([7f33680](https://github.com/rares-vsl/CICD/commit/7f33680ec5068f1919ee099ea101a4a9b22794d7))
+
 ## [0.2.0](https://github.com/rares-vsl/CICD/compare/v0.1.1...v0.2.0) (2025-05-31)
 
 ### Features
