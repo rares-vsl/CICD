@@ -1,3 +1,9 @@
+## [0.4.0](https://github.com/rares-vsl/CICD/compare/v0.3.0...v0.4.0) (2025-05-31)
+
+### Features
+
+* dynamic list of msgs ([e13c8b5](https://github.com/rares-vsl/CICD/commit/e13c8b5e125930eedd1f912da92f94d7e76294cc))
+
 ## [0.3.0](https://github.com/rares-vsl/CICD/compare/v0.2.0...v0.3.0) (2025-05-31)
 
 ### Features
