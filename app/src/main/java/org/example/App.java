@@ -5,9 +5,15 @@ package org.example;
 
 public class App {
 
+    public static String[] MSGS = {
+            "Hello World",
+            "I'm rares",
+            "and you are watching disney channel."
+    };
+
     public static void main(String[] args) {
-        System.out.println("Hello world");
-        System.out.println("I'm rares");
-        System.out.println("and you are watching disney channel.");
+        for (String msg : MSGS) {
+            System.out.println(msg);
+        }
     }
 }

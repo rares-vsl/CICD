@@ -4,10 +4,13 @@
 package org.example;
 
 import org.junit.jupiter.api.Test;
+
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
-    @Test void appHasAGreeting() {
-
+    @Test void appHasAHelloWorld() {
+        assertTrue(Arrays.stream(App.MSGS).anyMatch(s -> s.startsWith("Hello World")));
     }
 }
