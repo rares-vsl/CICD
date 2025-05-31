@@ -8,5 +8,6 @@ public class App {
     public static void main(String[] args) {
         System.out.println("Hello world");
         System.out.println("I'm rares");
+        System.out.println("and you are watching disney channel.");
     }
 }
