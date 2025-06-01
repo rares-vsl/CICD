@@ -13,4 +13,9 @@ class AppTest {
     @Test void appHasAHelloWorld() {
         assertTrue(Arrays.stream(App.MSGS).anyMatch(s -> s.startsWith("Hello World")));
     }
+
+    @Test void appHasAGreeting(){
+        String name = "rares";
+        assertEquals("I'm " + name, App.greetMsg(name));
+    }
 }
