@@ -7,13 +7,21 @@ public class App {
 
     public static String[] MSGS = {
             "Hello World",
-            "I'm rares",
+            "I'm ",
             "and you are watching disney channel."
     };
+
+    public static String greetMsg(String name){
+      return MSGS[1] + name;
+    }
 
     public static void main(String[] args) {
         int msg_code = 0;
 
         System.out.println(MSGS[msg_code]);
+
+        System.out.println(greetMsg("rares"));
+
+
     }
 }
