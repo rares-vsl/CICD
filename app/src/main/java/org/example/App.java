@@ -12,8 +12,8 @@ public class App {
     };
 
     public static void main(String[] args) {
-        for (String msg : MSGS) {
-            System.out.println(msg);
-        }
+        int msg_code = 0;
+
+        System.out.println(MSGS[msg_code]);
     }
 }
